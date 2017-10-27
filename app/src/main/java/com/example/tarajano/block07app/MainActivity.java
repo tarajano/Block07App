@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
         int pickerChoice = picker.getValue();
         webView.setWebViewClient(new WebViewClient());
         if(pickerChoice == 0)
-            webView.getProgress();
             webView.loadUrl("http://www.coursera.org");
         else if(pickerChoice == 1)
             webView.loadUrl("https://developer.android.com");
